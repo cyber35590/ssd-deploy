@@ -11,7 +11,7 @@ RUN apt-get update -yq \
 EXPOSE 8000
 VOLUME /data
 COPY init.sh /
-COPY config /opt/SSD/config
+COPY config /opt/SSD/ssd/config
 
 
 ENTRYPOINT /bin/bash
